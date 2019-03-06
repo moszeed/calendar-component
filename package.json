@@ -1,0 +1,23 @@
+{
+  "name": "calendar-component",
+  "version": "0.1.0",
+  "description": "a simple calendar component",
+  "main": "index.js",
+  "scripts": {
+    "test": "watchify -v -g babelify -t sheetify ./tests/test.js -o ./tests/test.build.js"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/polyfill": "latest",
+    "@babel/plugin-transform-arrow-functions": "latest",
+    "@babel/plugin-transform-classes": "latest",
+    "watchify": "latest",
+    "babelify": "latest",
+    "nanocomponent": "^6.5.2",
+    "nanohtml": "^1.2.6",
+    "sheetify": "^7.3.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
